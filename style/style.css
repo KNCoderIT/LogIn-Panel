@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Calibri, 'Roboto';
+	user-select: none;
+	color: white;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+	height: 500px;
+}
+.form-field{
+	width: 400px;
+	transition: .8s;
+}
+.form-field__legend{
+	font-size: 20px;
+	margin-left: 25px;
+	text-shadow: 3px 3px 6px gray;
+}
+.form-field__title{
+	font-weight: 400;
+	padding: 25px 20px;
+	font-size: 30px;
+	text-shadow: 3px 3px 6px gray;
+}
+.create{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: 160px;
+	left: 25px;
+	font-size: 15px;
+	text-shadow: 3px 3px 6px gray;
+}
+.label{
+	padding: 20px 25px;
+	font-size: 16px;
+	text-shadow: 3px 3px 6px gray;
+}
+.input{
+	margin: 10px 5px;
+	border-radius: 0px;
+	outline: none;
+	border: none;
+	background-color: rgb(238, 238, 238);
+	padding: 6px 10px;
+	width: 160px;
+	caret-color: black;
+	color: black;
+	font-size: 17px;
+	transition: .3s all;
+}
+.submit{
+	width: 90px;
+	height: 35px;
+	float: right;
+	margin-right: 20px;
+	border-radius: 0px;
+	outline: none;
+	border: none;
+	background-color: rgb(65, 65, 65);
+	transition: .3s all;
+	text-shadow: 3px 3px 6px gray;
+}
+#forgot{
+	font-size: 13px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: white;
+	text-shadow: 3px 3px 6px gray;
+	font-weight: 300;
+}
+.submit:hover{
+	background-color: red;
+}
+.input:hover{
+	box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+}
+
