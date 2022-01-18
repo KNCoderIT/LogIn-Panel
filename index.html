@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalible=no">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Login Panel</title>
+</head>
+<body style="background-image: url(images/bgimage.png);">
+	<form action="#" class="form">
+		<fieldset class="form-field" id="form">
+			<legend class="form-field__legend" id="hover-block">Log In</legend>
+			<h2 class="form-field__title">Log In to your account</h2>
+			<br><hr><br>
+			<label for="name" class="label">NickName</label><input type="text" id="name" required class="input" id="name-input" placeholder="NickName">
+			<br><br>
+			<label for="password" class="label">Password</label><input type="password" required class="input" id="password-input" placeholder="Password"><a href="#" id="forgot">Forgot password?</a>
+			<br><br>
+			<input type="submit" class="submit" onclick="hover()" value="Submit">
+			<a href="#" class="create">Create new account</a>
+		</fieldset>
+	</form>
+	<script>
+		var block = document.getElementById("form");
+
+		function hover(){
+			block.style.transform = "rotateY(360deg)";
+		}
+	</script>
+</body>
+</html>
